@@ -1188,7 +1188,7 @@ class Request extends Message implements ServerRequestInterface
      *
      * @return mixed[]
      */
-    public function getParams(array $only = null)
+    public function getParams(?array $only = null)
     {
         $params = $this->getQueryParams();
         $postParams = $this->getParsedBody();

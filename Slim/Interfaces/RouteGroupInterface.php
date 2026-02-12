@@ -35,5 +35,5 @@ interface RouteGroupInterface
      *
      * @param App $app
      */
-    public function __invoke(App $app);
+    public function __invoke(?App $app = null);
 }
